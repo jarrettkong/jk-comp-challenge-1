@@ -51,7 +51,7 @@ i {
 nav {
   height: 55px;
   width: 100%;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 li {
@@ -70,6 +70,7 @@ li a {
   text-decoration: none;
   height: 100%;
   display: table-cell;
+  font-size: 20px;
 }
 
 li a:visited {
@@ -93,7 +94,6 @@ li a:first-child {
 }
 
 main {
-  height: 100vh;
   max-width: 1300px;
   margin: auto;
   background-color: #efefef;
@@ -101,12 +101,20 @@ main {
   padding: 50px 20px;
 }
 
+#container {
+  height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
 h1 {
   font-weight: 500;
   line-height: 100%;
   font-size: 40px;
   color: #2b2b2b;
-  margin: 0 0 45px 0;
+  margin: 0 0 40px 0;
 }
 
 .info-card {
@@ -123,6 +131,29 @@ h1 {
   background-size: cover;
   width: 100%;
   height: 170px;
+  padding: 20px 25px;
+}
+
+.splash-art div {
+  float: right;
+}
+
+.learn-more img {
+  height: 70px;
+  margin: -5px 0 0 -10px;
+}
+
+.views {
+  font-size: 13px;
+  color: white;
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.view-count {
+  color: white;
+  font-size: 30px;
+  margin: 0;
 }
 
 .content {
