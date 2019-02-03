@@ -1,0 +1,179 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  /* border: 1px solid red; */
+}
+
+html, body {
+  width: 100vw;
+  margin: auto;
+  font-family: 'Open Sans';
+  background-color: #efefef;
+}
+
+header {
+  width: 100%;
+  height: 170px;
+  background-color: #2B2B2B;
+}
+
+#header-container {
+  max-width: 1300px;
+  height: 100%;
+  margin: auto;
+}
+
+.user {
+  text-align: right;
+  height: 40px;
+  line-height: 40px;
+  padding: 10px 35px 0 0;
+}
+
+.user a {
+  color: #2bb5fe;
+  text-decoration: none;
+}
+
+i {
+  font-size: 15px;
+  vertical-align: middle;
+}
+
+.user a:visited {
+  color: #2bb5fe;
+}
+
+nav {
+  height: 55px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  height: 100%;
+  line-height: 55px;
+  margin-left: 15px;
+}
+
+li a {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 15px;
+  color: #888;
+  text-decoration: none;
+  height: 100%;
+  display: table-cell;
+}
+
+li a:visited {
+  /* color: inherit; */
+}
+
+li a:first-child {
+  color: white;
+}
+
+.logo-container {
+  display: inline-block;
+  float: right;
+  height: 100%;
+  text-align: right;
+  margin-right: 35px;
+}
+
+.logo {
+  height: 100%;
+}
+
+main {
+  height: 100vh;
+  max-width: 1300px;
+  margin: auto;
+  background-color: #efefef;
+  border: 1px solid red;
+  padding: 50px 20px;
+}
+
+h1 {
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 40px;
+  color: #2b2b2b;
+  margin: 0 0 45px 0;
+}
+
+.info-card {
+  width: 325px;
+  height: 465px;
+  background-color: white;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+  -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+}
+
+.splash-art {
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(https://static.altchar.com/live/media/images/950x633_ct/2085_steam_logo_0b1356819e777e8e9d94e02e3bd2d8a5.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 170px;
+}
+
+.content {
+  padding: 15px 20px;
+  color: grey;
+  font-size: 18px;
+}
+
+.title {
+  padding-bottom: 6px;
+}
+
+.content p {
+  margin: 0;
+}
+
+.release-date {
+  font-size: 15px;
+  color: darkgrey;
+}
+
+.store-link {
+  width: 100%;
+  height: 60px;
+  background-color: #efefef;
+  padding: 10px;
+  word-wrap: break-word;
+  margin: 15px 0;
+}
+
+.store-link a {
+  color: grey;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.store-link a:visited {
+  color: grey;
+}
+
+.supported-platforms, .price-text {
+  font-size: 13px;
+  padding-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.additional-info {
+  margin-bottom: 25px;
+}
+
+.price-amount {
+  font-size: 35px;
+  color: #2bb5fe;
+}
