@@ -244,6 +244,14 @@ h2 {
     display: none;
   }
 
+  #container {
+    justify-content: space-around;
+  }
+
+  .info-card {
+    margin: 0 0 15px 0;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -284,14 +292,5 @@ h2 {
   h1 {
     margin: 30px 15px 0 0;
   }
-
-  #container {
-    justify-content: space-around;
-  }
-
-  .info-card {
-    margin: 0 0 15px 0;
-  }
-
 
 }
