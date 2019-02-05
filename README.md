@@ -1,4 +1,4 @@
-# Dog Party
+# Static Comp 1
 This goal of this project is to recreate this card-based UI in order to practice alignment and `flex-box`.
 
 ## Description
