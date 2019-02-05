@@ -12,11 +12,11 @@ Below is the original comp to replicate:
 
 Below is the recreated webpage:
 
-![My completed webpage](https://i.imgur.com/AtE89u1.jpg)
+![My completed webpage](https://i.imgur.com/dDQdppu.jpg)
 
 Mobile:
 
-![Mobile version](https://i.imgur.com/GSX8PBh.png)
+![Mobile version](https://i.imgur.com/wEJvllf.png)
 
 ## Getting Started
 

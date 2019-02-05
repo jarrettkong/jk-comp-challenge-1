@@ -142,6 +142,16 @@ h2 {
   width: 100%;
 }
 
+.first-card {
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(http://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_1280w.jpg);
+  -moz-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(http://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_1280w.jpg);
+  -webkit-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(http://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_1280w.jpg);
+  background-size: cover;
+  height: 170px;
+  padding: 20px 25px;
+  width: 100%;
+}
+
 .splash-art div {
   float: right;
 }
@@ -217,6 +227,11 @@ h2 {
 .price-amount {
   color: #2bb5fe;
   font-size: 35px;
+}
+
+.sale {
+  color: red;
+  text-decoration: line-through;
 }
 
 .clearfix::after {
