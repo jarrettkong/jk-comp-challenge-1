@@ -17,12 +17,14 @@ header {
   width: 100%;
 }
 
+/* Contains all the header elements */
 #header-container {
   height: 100%;
   margin: auto;
   max-width: 1400px;
 }
 
+/* User link at top right of header */
 .user {
   height: 50px;
   line-height: 100%;
@@ -30,6 +32,7 @@ header {
   text-align: right;
 }
 
+/* Test within user */
 .user a {
   color: #2bb5fe;
   text-decoration: none;
@@ -39,15 +42,17 @@ header {
   color: #2bb5fe;
 }
 
+/* Links and logo */
 nav {
   height: 130px;
-  width: 100%;
   padding-top: 15px;
+  width: 100%;
 }
 
+/* Links */
 ul {
-  max-width: 600px;
   display: inline-block;
+  max-width: 600px;
   padding: 0;
 }
 
@@ -59,6 +64,7 @@ li {
   /* margin-left: 15px; */
 }
 
+/* Does not include icons */
 li a {
   color: #888;
   font-size: 20px;
@@ -70,19 +76,22 @@ li a {
   text-transform: uppercase;
 }
 
+/* Changes to default Material.io styles */
 .material-icons {
   color: #2bb5fe;
+  display: inline-flex;
   font-size: 35px;
   line-height: inherit;
-  display: inline-flex;
-  vertical-align: middle;
   padding-bottom: 5px;
+  vertical-align: middle;
 }
 
+/* Page currently loaded */
 #selected {
   color: white;
 }
 
+/* Logo */
 h1 {
   display: inline;
   float: right;
@@ -92,14 +101,16 @@ h1 {
 }
 
 .logo {
-  height: inherit;
   filter: invert(100%);
+  height: inherit;
 }
 
+/* Collapsed menu icon, hidden on desktop */
 #menu {
   display: none;
 }
 
+/* Card UI and page title */
 main {
   background-color: #efefef;
   margin: auto;
@@ -108,12 +119,14 @@ main {
   padding: 50px 20px;
 }
 
+/* Card UI */
 #container {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
 }
 
+/* Page title */
 h2 {
   color: #2b2b2b;
   font-size: 40px;
@@ -122,30 +135,33 @@ h2 {
   margin: 0 0 40px 0;
 }
 
+/* Each individual */
 .info-card {
-  background-color: white;
-  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
   -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
   -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+  background-color: white;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
   height: 465px;
   margin: 0 15px 15px 0;
   width: 325px;
 }
 
+/* Background image */
 .splash-art {
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(https://static.altchar.com/live/media/images/950x633_ct/2085_steam_logo_0b1356819e777e8e9d94e02e3bd2d8a5.jpg);
   -moz-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(https://static.altchar.com/live/media/images/950x633_ct/2085_steam_logo_0b1356819e777e8e9d94e02e3bd2d8a5.jpg);
   -webkit-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(https://static.altchar.com/live/media/images/950x633_ct/2085_steam_logo_0b1356819e777e8e9d94e02e3bd2d8a5.jpg);
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(https://static.altchar.com/live/media/images/950x633_ct/2085_steam_logo_0b1356819e777e8e9d94e02e3bd2d8a5.jpg);
   background-size: cover;
   height: 170px;
   padding: 20px 25px;
   width: 100%;
 }
 
+/* Demo card */
 .first-card {
-  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(http://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_1280w.jpg);
   -moz-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(http://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_1280w.jpg);
   -webkit-background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(http://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_1280w.jpg);
+  background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.25)), url(http://assets1.ignimgs.com/2018/06/21/hollowknight-1280-1529623462572_1280w.jpg);
   background-size: cover;
   height: 170px;
   padding: 20px 25px;
@@ -176,6 +192,7 @@ h2 {
   text-align: right;
 }
 
+/* Contains all card content except for image, learn more button, and rating */
 .content {
   color: grey;
   font-size: 18px;
@@ -240,16 +257,18 @@ h2 {
   display: table;
 }
 
+/* Media Queries */
+
 @media only screen and (max-width: 750px) {
 
   #menu {
-    display: inline-flex;
-    vertical-align: middle;
-    color: #2b2b2b;
-    margin: 20px 0 0 20px;
     border: 1px solid #888;
     border-radius: 20%;
+    color: #2b2b2b;
+    display: inline-flex;
+    margin: 20px 0 0 20px;
     padding: 5px 10px 0 10px;
+    vertical-align: middle;
   }
 
   li {
@@ -278,13 +297,13 @@ h2 {
   }
 
   #menu {
-    display: inline-flex;
-    vertical-align: middle;
-    color: #2b2b2b;
-    margin: 20px 0 0 20px;
     border: 1px solid #888;
     border-radius: 20%;
+    color: #2b2b2b;
+    display: inline-flex;
+    margin: 20px 0 0 20px;
     padding: 5px 10px 0 10px;
+    vertical-align: middle;
   }
 
   .logo {
