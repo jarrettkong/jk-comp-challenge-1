@@ -48,7 +48,7 @@ nav {
 ul {
   max-width: 600px;
   display: inline-block;
-  padding: 15px 0 0 0;
+  padding: 0;
 }
 
 li {
@@ -93,6 +93,7 @@ h1 {
 
 .logo {
   height: inherit;
+  filter: invert(100%);
 }
 
 #menu {
